@@ -1,0 +1,15 @@
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext_Antivirus_Instalador.Form1.resources
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext_Antivirus_Instalador.Properties.Resources.resources
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Instalador.csproj.GenerateResource.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Instalador.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Instalador.csprojAssemblyReference.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\bin\Debug\Nottext Antivirus Pt.exe.config
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\bin\Debug\Nottext Antivirus Pt.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\bin\Debug\Nottext Antivirus Pt.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\bin\Debug\Nottext Antivirus Pt.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\bin\Debug\Nottext Antivirus Pt.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Pt.TrustInfo.xml
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Pt.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Pt.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Pt.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Instalador\obj\Debug\Nottext Antivirus Pt.pdb
