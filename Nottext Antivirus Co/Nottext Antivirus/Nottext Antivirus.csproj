@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15EAE659-FDED-41C1-A90A-B96B5025B1A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nottext_Antivirus</RootNamespace>
+    <AssemblyName>NottextAnt</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://nottext.000webhostapp.com/</SupportUrl>
+    <ProductName>Nottext Antivirus</ProductName>
+    <PublisherName>Nottext Security</PublisherName>
+    <SuiteName>Nottext Package</SuiteName>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>nottext.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>532233926AFF416762B2789000A97328A71F6E78</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Nottext.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>
+    </ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\$Dlls\Guna.UI-Framework-Lib-master\GunaV2\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.EventLog, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.EventLog.4.7.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ServiceProcess.ServiceController, Version=4.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ServiceProcess.ServiceController.4.7.0\lib\net461\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtualizarBanco.cs" />
+    <Compile Include="KernelCommunication.cs" />
+    <Compile Include="DatabaseFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseFORM.Designer.cs">
+      <DependentUpon>DatabaseFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Effects.cs" />
+    <Compile Include="Exceptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exceptions.Designer.cs">
+      <DependentUpon>Exceptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecptionsRANSO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecptionsRANSO.Designer.cs">
+      <DependentUpon>ExecptionsRANSO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders.Designer.cs">
+      <DependentUpon>Folders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inf.cs" />
+    <Compile Include="InstallWatemark.cs" />
+    <Compile Include="KernelModeInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KernelModeInstaller.Designer.cs">
+      <DependentUpon>KernelModeInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notificacao.Designer.cs">
+      <DependentUpon>Notificacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="FileProtection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileProtection.Designer.cs">
+      <DependentUpon>FileProtection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Protections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Protections.Designer.cs">
+      <DependentUpon>Protections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quarentine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quarentine.Designer.cs">
+      <DependentUpon>Quarentine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPassword.Designer.cs">
+      <DependentUpon>SetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShadowForm.cs" />
+    <Compile Include="virusScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="virusScan.Designer.cs">
+      <DependentUpon>virusScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows.Designer.cs">
+      <DependentUpon>Windows.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseFORM.resx">
+      <DependentUpon>DatabaseFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exceptions.resx">
+      <DependentUpon>Exceptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExecptionsRANSO.resx">
+      <DependentUpon>ExecptionsRANSO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Folders.resx">
+      <DependentUpon>Folders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KernelModeInstaller.resx">
+      <DependentUpon>KernelModeInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notificacao.resx">
+      <DependentUpon>Notificacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileProtection.resx">
+      <DependentUpon>FileProtection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Protections.resx">
+      <DependentUpon>Protections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quarentine.resx">
+      <DependentUpon>Quarentine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPassword.resx">
+      <DependentUpon>SetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="virusScan.resx">
+      <DependentUpon>virusScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows.resx">
+      <DependentUpon>Windows.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Nottext.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nottex.ico" />
+    <Content Include="nottext.ico" />
+    <None Include="Resources\bg3.jpg" />
+    <None Include="Resources\cloud-computing-warning.png" />
+    <None Include="Resources\cloud-computing-danger.png" />
+    <None Include="Resources\cloud-computing.png" />
+    <None Include="Resources\Computer-Danger-blue.png" />
+    <None Include="Resources\Computer-blue.png" />
+    <None Include="Resources\BG.png" />
+    <None Include="Resources\Nottext_-_Atualizacoes.png" />
+    <None Include="Resources\stop-button.png" />
+    <None Include="Resources\play-button.png" />
+    <None Include="Resources\file.png" />
+    <None Include="Resources\Minimize.png" />
+    <None Include="Resources\Computer-Danger.png" />
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
