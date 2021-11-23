@@ -31,4 +31,4 @@ Eu senti que o código precisa ser atualizado, pra ser mais especifico, eu comec
 ![1](https://user-images.githubusercontent.com/51800283/143126374-6bc1d734-0ac7-4fbf-8ae8-be57a8b9f978.png)
 
 ## Por favor
-Por favor, se você usar este projeto, peço que, deixe os créditos, realmente, eu dediquei muito tempo da minha vida a esse projeto, então, eu só gostaria de receber alguma part do crédito
+Por favor, se você usar este projeto, peço que, deixe os créditos, realmente, eu dediquei muito tempo da minha vida a esse projeto, então, eu só gostaria de receber alguma parte do crédito
