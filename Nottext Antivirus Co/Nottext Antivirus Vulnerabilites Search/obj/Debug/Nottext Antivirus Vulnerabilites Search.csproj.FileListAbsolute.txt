@@ -1,0 +1,6 @@
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\obj\Debug\Nottext Antivirus Vulnerabilites Search.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\bin\Debug\NtVulnerabilities.exe.config
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\bin\Debug\NtVulnerabilities.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\bin\Debug\NtVulnerabilities.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\obj\Debug\NtVulnerabilities.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Vulnerabilites Search\obj\Debug\NtVulnerabilities.pdb
