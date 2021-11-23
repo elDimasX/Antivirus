@@ -1,0 +1,23 @@
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.csprojAssemblyReference.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\bin\Debug\Nottext Antivirus.exe.config
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\bin\Debug\Nottext Antivirus.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\bin\Debug\Nottext Antivirus.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\bin\Debug\Nottext Antivirus.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\bin\Debug\Nottext Antivirus.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.TrustInfo.xml
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus - No kernel\obj\Debug\Nottext Antivirus.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\NtService.exe.config
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\NtService.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\NtService.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\NtService.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\NtService.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\NtService.TrustInfo.xml
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\NtService.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\NtService.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\NtService.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\NtService.pdb

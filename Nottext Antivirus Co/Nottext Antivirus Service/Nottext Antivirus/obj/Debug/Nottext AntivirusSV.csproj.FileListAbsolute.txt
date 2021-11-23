@@ -1,0 +1,11 @@
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext AntivirusSV.csproj.CoreCompileInputs.cache
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\Nottext Antivirus.exe.config
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\Nottext Antivirus.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\Nottext Antivirus.application
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\Nottext Antivirus.exe
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\bin\Debug\Nottext Antivirus.pdb
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.TrustInfo.xml
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.exe.manifest
+C:\Users\dimas\OneDrive\Documentos\Visual Studio Projetos\Projetos\C#\Nottext Antivirus Co\Nottext Antivirus Service\Nottext Antivirus\obj\Debug\Nottext Antivirus.application

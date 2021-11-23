@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><trustInfo xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"><security><applicationRequestMinimum><PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" /><defaultAssemblyRequest permissionSetReference="Custom" /></applicationRequestMinimum><requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3"><!-- Opções de Manifesto UAC
+ Se você deseja alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó requestedExecutionLevel 
+ por um dos seguintes.
+
+<requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+ Especificar o elemento requestedExecutionLevel desabilitará a virtualização de arquivos e Registro. 
+ Remova esse elemento se seu aplicativo requer essa virtualização para compatibilidade
+            com versões anteriores.
+        --><requestedExecutionLevel level="asInvoker" uiAccess="false" /></requestedPrivileges></security></trustInfo>
